@@ -1,10 +1,21 @@
-A small command line tool to download ressources, like pdfs or images, from moodle.
+A small command line tool for downloading resources, like pdfs or images, from Moodle.
 
-Install:
+Build:
 ```
-   $ go get github.com/s-gheldd/moodle-fetcher
+    $ go get github.com/s-gheldd/moodle-fetcher
 ```
 (or clone and go install)
+```
+    $ git clone github.com/s-gheldd/moodle-fetcher.git
+    $ go install
+```
+(or clone and make)
+```
+    $ git clone github.com/s-gheldd/moodle-fetcher.git
+    $ make
+```
+Install:
+Download release for your OS.
 
 Usage:
 ```
